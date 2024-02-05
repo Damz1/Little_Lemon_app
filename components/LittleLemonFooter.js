@@ -1,3 +1,4 @@
+import * as React from "react";
 import { View, Text } from "react-native";
 
 export default function LittleLemonFooter() {
@@ -15,7 +16,7 @@ export default function LittleLemonFooter() {
           textAlign: "center",
         }}
       >
-        All rights reserved by Little Lemon, 2022
+        All rights reserved by Little Lemon, 2022{" "}
       </Text>
     </View>
   );
